@@ -19,8 +19,8 @@
 // Configure our app
 angular.module('editor', ['editor.login', 'editor.rename', 'editor.drive', 'ngRoute', 'ngMaterial', 'ui.codemirror'])
   .constant('apiKey', null)
-  .constant('clientId', '709207149709-fadikftqudacphtr4pq5mu80s6tqklrb.apps.googleusercontent.com')
-  .constant('applicationId', '709207149709')
+  .constant('clientId', '1062374776799-ao4o8702tp7rsuu2bf4ablhvpitd6vdb.apps.googleusercontent.com')
+  .constant('applicationId', '1062374776799')
   .constant('scope', ['email', 'profile', 'https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/drive.install'])
   .constant('loadApis', {
     'drive' : 'v2'
